@@ -2,8 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Dispatch, SetStateAction } from "react";
 import { useAuth } from "../context/AuthContext"; // adjust the path accordingly
-import { Button, Menu } from "@headlessui/react"; // optional, but helps for dropdown UI
-import { UserCircleIcon } from "@heroicons/react/24/solid"; // or any icon you want
+import { Button,  } from "@headlessui/react"; // optional, but helps for dropdown UI
 import { useState } from "react";
 import AuthModal from "./AuthModal";
 

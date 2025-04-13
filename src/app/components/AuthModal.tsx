@@ -34,8 +34,8 @@ export default function AuthModal({
       }
       onSuccess?.();
       onClose();
-    } catch (err) {
-      setError("Authentication failed. Please try again.");
+    } catch (error) {
+      setError(`Authentication failed. Please try again.${error}`);
     } finally {
       setLoading(false);
     }

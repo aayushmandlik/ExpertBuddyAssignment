@@ -60,7 +60,7 @@ export default function PriceCalculator() {
               >
                 <option value="high-school">High School</option>
                 <option value="undergraduate">Undergraduate/Bachelor</option>
-                <option value="masters">Master's</option>
+                <option value="masters">Masters</option>
                 <option value="phd">PhD</option>
               </select>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">

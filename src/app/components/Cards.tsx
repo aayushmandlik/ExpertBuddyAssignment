@@ -1,8 +1,6 @@
-import { ChevronDown, ChevronLeft, ChevronRight } from "lucide-react";
+import { ChevronDown } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";
-import Link from "next/link";
-import DocumentView from "./DocumentView";
 import Pagination from "./Pagination";
 
 
@@ -105,10 +103,10 @@ const handlePageChange = (page: number) => {
   academicLevel === "any";
 
 
-  // View state management
-  const [selectedDocument, setSelectedDocument] = useState<Document | null>(
-    null
-  );
+  // // View state management
+  // const [selectedDocument, setSelectedDocument] = useState<Document | null>(
+  //   null
+  // );
 
   // Enhanced sample data with all required properties
   const sampleData: Document[] = [
@@ -336,7 +334,7 @@ const handlePageChange = (page: number) => {
         {searchQuery && (
           <div className="mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-2">
-              Result for "{searchQuery}"
+              Result for {searchQuery}
             </h2>
             <p className="text-purple-600 font-medium">
               {filteredData.length} results

@@ -20,7 +20,7 @@ export default function Pagination({
 
   // Generate page numbers to display
   const getPageNumbers = () => {
-    let pages: number[] = [];
+    const pages: number[] = [];
 
     // Always show first page
     pages.push(1);
@@ -38,7 +38,7 @@ export default function Pagination({
     if (totalPages > 1) pages.push(totalPages);
 
     // Add ellipsis indicators
-    let result: (number | 'ellipsis')[] = [];
+    const result: (number | 'ellipsis')[] = [];
     let prevPage = 0;
 
     pages.forEach((page) => {

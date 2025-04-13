@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Hero from "./components/Hero";
 import Cards from "./components/Cards";
 import DocumentsByType from "./components/DocumentType";

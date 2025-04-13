@@ -20,7 +20,7 @@ export default function CustomOrderForm() {
     <div className="bg-gray-100 flex justify-start items-start max-w-[50%] lg:ml-5 ml-1.5 mb-20">
     <div className="rounded-3xl px-10 py-10 shadow-lg min-w-screen lg:min-w-[720px] mx-auto bg-[#A414D5] bg-[url('/pattern.png')] bg-blend-multiply bg-no-repeat bg-cover bg-center">
       <h2 className="text-white text-4xl font-bold mb-4">
-        Can't find the right project for <br /> you? Place a custom order right <br /> now!
+        Cant find the right project for <br /> you? Place a custom order right <br /> now!
       </h2>
 
       <div className="grid grid-cols-2 gap-4 mb-4">
@@ -57,7 +57,7 @@ export default function CustomOrderForm() {
               </option>
               <option value="high-school">High School</option>
               <option value="undergraduate">Undergraduate</option>
-              <option value="masters">Master's</option>
+              <option value="masters">Masters</option>
               <option value="phd">PhD</option>
             </select>
             <div className="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">

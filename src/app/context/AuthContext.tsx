@@ -47,7 +47,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     }
   }, [user]);
 
-  const login = async (email: string, password: string) => {
+  const login = async (email: string) => {
     try {
       // Simulate API call
       await new Promise((resolve) => setTimeout(resolve, 1000));

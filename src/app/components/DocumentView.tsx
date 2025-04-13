@@ -33,7 +33,7 @@ interface Document {
 export default function DocumentView({ document, onBack, searchQuery, onDocumentSelect }: DocumentViewProps) {
   const [showAnswers, setShowAnswers] = useState(false);
   const [showAuthModal, setShowAuthModal] = useState(false);
-  const { isAuthenticated, user } = useAuth();
+  const { isAuthenticated} = useAuth();
 
   const handleUnlockClick = () => {
     if (!isAuthenticated) {
